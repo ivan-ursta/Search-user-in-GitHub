@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(245, 245, 245);
+    padding: 0 500px;
+}
+
+input {
+    width: 25%;
+    margin: 0 10px;
+    background-color: rgb(245, 245, 245);
+    border: none;
+    border-bottom: 1px solid rgb(206, 206, 206);
+}
+
+:active,
+ :hover,
+ :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+button {
+    border-radius: 0%;
+    border-width: 1px;
+    border-color: rgb(206, 206, 206);
+}
+
+p {
+    display: flex;
+}
+
+div img {
+    width: 180px;
+}
+
+.gitContainer {
+    display: flex;
+}
+
+.side {
+    margin: 40px 50px 20px 20px;
+    width: 50%;
+}
+
+.obj {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    border-bottom: 1px solid rgb(206, 206, 206);
+}
+
+#url {
+    height: 35px;
+}
+
+b {
+    color: rgb(73, 73, 73);
+}
